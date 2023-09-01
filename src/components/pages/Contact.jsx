@@ -3,7 +3,7 @@ export default function Contact() {
     <div>
       <div className="input-group mb-3">
   <div className="input-group-prepend">
-    <span className="input-group-text" id="basic-addon1">@</span>
+    <span className="input-group-text" id="basic-addon1">Your Username</span>
   </div>
   <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
 </div>
@@ -11,11 +11,11 @@ export default function Contact() {
 <div className="input-group mb-3">
   <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
   <div className="input-group-append">
-    <span className="input-group-text" id="basic-addon2">@example.com</span>
+    <span className="input-group-text" id="basic-addon2">Your Email</span>
   </div>
 </div>
 
-<label htmlFor="basic-url">Your vanity URL</label>
+<label htmlFor="basic-url">Your Email</label>
 <div className="input-group mb-3">
   <div className="input-group-prepend">
     <span className="input-group-text" id="basic-addon3">https://example.com/users/</span>
@@ -25,17 +25,18 @@ export default function Contact() {
 
 <div className="input-group mb-3">
   <div className="input-group-prepend">
-    <span className="input-group-text">$</span>
+    <span className="input-group-text">Message Subject Here</span>
   </div>
   <input type="text" className="form-control" aria-label="Amount"/>
   <div className="input-group-append">
-    <span className="input-group-text">.00</span>
+    <span className="input-group-text"></span>
   </div>
 </div>
 
 <div className="input-group">
   <div className="input-group-prepend">
-    <span className="input-group-text">With textarea</span>
+    <span className="input-group-text">Message Content Here</span>
+    <button type="submit">Submit</button>
   </div>
   <textarea className="form-control" aria-label="With textarea"></textarea>
 </div>
